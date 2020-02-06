@@ -1,0 +1,16 @@
+Index: src/router/usuarioRouter.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/router/usuarioRouter.ts	(revision 9f249f4a90ee12b38248d3f41a75b208515da1b4)
++++ src/router/usuarioRouter.ts	(date 1580943126570)
+@@ -20,7 +20,7 @@
+ });
+ 
+ usuarioRouter.post("/", async (req: Request, res: Response) => {
+-        await UsuarioService.criar(req.body.user);
++        await UsuarioService.criar(req.body);
+ });
+ 
+ usuarioRouter.delete("/:id", async (req: Request, res: Response) => {
