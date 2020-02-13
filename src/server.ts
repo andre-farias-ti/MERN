@@ -3,6 +3,7 @@ import {connect} from "mongoose";
 import { usuarioRouter } from "./router/usuarioRouter";
 import { NextFunction } from "connect";
 import bodyParser = require("body-parser");
+// @ts-ignore
 import cors from "cors";
 
 
