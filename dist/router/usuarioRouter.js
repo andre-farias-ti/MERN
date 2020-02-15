@@ -12,7 +12,7 @@ exports.usuarioRouter.get("/", async (req, res) => {
     res.json(usuarios);
 });
 exports.usuarioRouter.post("/salvar", async (req, res) => {
-    await usuarioService_1.UsuarioService.criar(req.body.user);
+    await usuarioService_1.UsuarioService.criar(req.body);
 });
 exports.usuarioRouter.delete("deletar/:id", async (req, res) => {
     const usuario = await usuarioService_1.UsuarioService.remover(req.params.id);

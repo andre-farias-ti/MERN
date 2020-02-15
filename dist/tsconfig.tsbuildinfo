@@ -358,11 +358,11 @@
         "signature": "2b0eb270e2a49696f9ab7ad83fededae21449b39fb14fbd395cbf867d4029c5d"
       },
       "../src/router/usuariorouter.ts": {
-        "version": "ec3c63f0fccad6aa49b2efb1fbed31efae1a1e8ba77a796268e76db35d725e8d",
+        "version": "07aae03da0aaed2fc89660c2c5efcadab19acd293950e93c27354efa8e981a95",
         "signature": "2f5fbe7b9af1a7639d728cf53f9a93535f72e020f2a96ce2493039e9151298cc"
       },
       "../src/server.ts": {
-        "version": "d361a84795789a213cb972fa36dfa7bd1744a2cd084e97b63599f0a3026554d1",
+        "version": "8874ff64d76334b2a726b5f2dbe410b24a5114bbc90dd39b996f6dadbc3b879d",
         "signature": "cc8d15f6801f20323f98be3c3e1e527c0ce21345dac2de2605ee4c500cfd0ed0"
       },
       "../node_modules/@types/cookiejar/index.d.ts": {
@@ -2162,30 +2162,6 @@
       "../node_modules/@types/mongoose/index.d.ts",
       "../src/model/usuario.ts",
       "../src/service/usuarioservice.ts",
-      [
-        "../src/server.ts",
-        [
-          {
-            "file": "../src/server.ts",
-            "start": 261,
-            "length": 6,
-            "code": 7016,
-            "category": 1,
-            "messageText": {
-              "messageText": "Could not find a declaration file for module 'cors'. 'C:/ambiente/workspaces/workspace-MERN/node_modules/cors/lib/index.js' implicitly has an 'any' type.",
-              "category": 1,
-              "code": 7016,
-              "next": [
-                {
-                  "messageText": "Try `npm install @types/cors` if it exists or add a new declaration (.d.ts) file containing `declare module 'cors';`",
-                  "category": 1,
-                  "code": 7035
-                }
-              ]
-            }
-          }
-        ]
-      ],
       "../node_modules/@types/cookiejar/index.d.ts",
       "../node_modules/@types/superagent/index.d.ts",
       "../node_modules/@types/supertest/index.d.ts",
@@ -2206,7 +2182,8 @@
       "../node_modules/@types/stack-utils/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/router/usuariorouter.ts"
+      "../src/router/usuariorouter.ts",
+      "../src/server.ts"
     ]
   },
   "version": "3.7.5"

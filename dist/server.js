@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const mongoose_1 = require("mongoose");
 const usuarioRouter_1 = require("./router/usuarioRouter");
 const bodyParser = require("body-parser");
+// @ts-ignore
 const cors_1 = __importDefault(require("cors"));
 const app = express_1.default();
 app.use(bodyParser.json());
